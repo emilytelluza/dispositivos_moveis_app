@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para o nome de usuário -->
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome de usuário"
+        android:inputType="textPersonName" />
+
+    <!-- Campo para o email -->
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="8dp" />
+
+    <!-- Campo para a senha -->
+    <EditText
+        android:id="@+id/edSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp" />
+
+    <!-- Campo para confirmar a senha -->
+    <EditText
+        android:id="@+id/edConfirmarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp" />
+
+    <!-- Botão para avançar -->
+    <Button
+        android:id="@+id/btnAvancarCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
